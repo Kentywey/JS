@@ -38,7 +38,7 @@
                 </div>
             </div>
                 <div v-if="checkMax" class="alert alert-danger" role="alert">
-                    Budget Atteint !
+                    Budget Dépassé !
                 </div>
         </div>
     </div>
@@ -63,7 +63,8 @@ export default {
             "carottes",
             "pommes",
             "banane",
-            "riz"
+            "riz",
+            "flocon d'avoine"
             ]
         }
     },

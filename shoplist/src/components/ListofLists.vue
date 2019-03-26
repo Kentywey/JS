@@ -2,7 +2,7 @@
 
   <section class="listOfLists">
     <img src="@/assets/liste.jpg" id="img-head">
-    <h1 class="text-left">Mes listes</h1>
+    <h1 class="text-left">Mes listes de courses</h1>
     <hr>
     <div id="add-list">
       <input class="form-control col-md-4" type="text" v-model="name" placeholder="Nouvelle liste" @keyup.enter="createList()">
@@ -102,7 +102,7 @@
     margin-left : 1%;
     display: inline;
   }
-  
+
   #img-head{
     margin-left: auto;
     margin-right: auto;
